@@ -3,9 +3,10 @@
  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>
  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>
  <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/></a>
+ <img src="https://img.shields.io/badge/StyledComponents-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
  <img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/></a>
  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/StyledComponents-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
+  
 
 [![](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&logoWidth=20)]()
 [![](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&logoWidth=20)]()
