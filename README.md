@@ -1,4 +1,4 @@
-## 안녕하세요. 배담호 입니다.
+## 소통을 중요시하는 개발자, 배담호 입니다.
 
 ## Languages and Tools
  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>
