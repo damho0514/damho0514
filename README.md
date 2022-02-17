@@ -1,4 +1,4 @@
-## 소통을 중요시하는 프론트엔드 개발자, 배담호 입니다.
+##  
 ## Languages and Tools
  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>
  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>
