@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" fill="none">
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#262C35"/>
+    </pattern>
+    <clipPath id="frame"><rect width="960" height="300" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .t { font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple SD Gothic Neo', 'Segoe UI', 'Noto Sans KR', Helvetica, Arial, sans-serif; }
+    .m { font-family: 'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sel { stroke-dasharray: 860; stroke-dashoffset: 860; animation: draw 9s cubic-bezier(.2,.8,.2,1) infinite; }
+    .hd { opacity: 0; animation: show 9s steps(1) infinite; }
+    .tagA { animation: tagA 9s infinite; }
+    .tagB { opacity: 0; animation: tagB 9s infinite; }
+    .bar { transform-box: fill-box; transform-origin: left center; animation: bar 3s cubic-bezier(.2,.8,.2,1) infinite; }
+    .knob { animation: knob 3s cubic-bezier(.2,.8,.2,1) infinite; }
+    @keyframes draw { 0%,8% { stroke-dashoffset: 860; } 22%,88% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 860; } }
+    @keyframes show { 0% { opacity: 0; } 20% { opacity: 1; } 90% { opacity: 0; } }
+    @keyframes tagA { 0%,20% { opacity: 0; } 24%,48% { opacity: 1; } 52%,100% { opacity: 0; } }
+    @keyframes tagB { 0%,50% { opacity: 0; } 54%,86% { opacity: 1; } 90%,100% { opacity: 0; } }
+    @keyframes bar { 0% { transform: scaleX(0); } 70%,100% { transform: scaleX(1); } }
+    @keyframes knob { 0% { transform: translateX(0); } 70%,100% { transform: translateX(232px); } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="960" height="300" fill="#11151B"/>
+    <rect width="960" height="300" fill="url(#dots)"/>
+
+    <!-- top rail -->
+    <text x="56" y="56" class="m" font-size="13" fill="#8B949E" letter-spacing=".4">graphic designer <tspan fill="#FF6B4A">→</tspan> frontend developer</text>
+
+    <!-- name + selection -->
+    <text x="66" y="186" class="t" font-size="104" font-weight="800" letter-spacing="-4" fill="#EEF1F5">damho</text>
+
+    <g class="tagA">
+      <rect x="56" y="88" width="122" height="22" rx="4" fill="#2EA8FF"/>
+      <text x="66" y="103.5" class="m" font-size="12" fill="#FFFFFF">Frame · design</text>
+    </g>
+    <g class="tagB">
+      <rect x="56" y="88" width="138" height="22" rx="4" fill="#FF6B4A"/>
+      <text x="66" y="103.5" class="m" font-size="12" fill="#FFFFFF">&lt;Damho /&gt; · code</text>
+    </g>
+
+    <rect class="sel" x="56" y="116" width="334" height="92" stroke="#2EA8FF" stroke-width="1.5"/>
+    <g class="hd" fill="#161B22" stroke="#2EA8FF" stroke-width="1.5">
+      <rect x="51" y="111" width="10" height="10"/>
+      <rect x="385" y="111" width="10" height="10"/>
+      <rect x="51" y="203" width="10" height="10"/>
+      <rect x="385" y="203" width="10" height="10"/>
+    </g>
+    <g class="hd">
+      <rect x="168" y="220" width="110" height="22" rx="4" fill="#2EA8FF"/>
+      <text x="223" y="235.5" class="m" font-size="12" fill="#FFFFFF" text-anchor="middle">5 yrs × UX</text>
+    </g>
+
+    <text x="56" y="272" class="t" font-size="15" fill="#8B949E">사용자 경험을 오래 고민하고, 조금 신기한 인터페이스를 만듭니다.</text>
+
+    <!-- easing panel -->
+    <g transform="translate(560 40)">
+      <rect width="344" height="220" rx="14" fill="#161B22" stroke="#262C35"/>
+      <text x="22" y="34" class="m" font-size="12" fill="#8B949E">easing</text>
+      <text x="322" y="34" class="m" font-size="12" fill="#EEF1F5" text-anchor="end">cubic-bezier(.2, .8, .2, 1)</text>
+
+      <path d="M56 168 H288 M56 168 V52" stroke="#262C35"/>
+      <path d="M56 168 L102 75" stroke="#8B949E" stroke-opacity=".6"/>
+      <path d="M288 52 L102 52" stroke="#8B949E" stroke-opacity=".6"/>
+      <circle cx="102" cy="75" r="4" fill="#161B22" stroke="#FF6B4A" stroke-width="1.5"/>
+      <circle cx="102" cy="52" r="4" fill="#161B22" stroke="#FF6B4A" stroke-width="1.5"/>
+      <path id="curve" d="M56 168 C102 75 102 52 288 52" stroke="#2EA8FF" stroke-width="2.5" stroke-linecap="round"/>
+      <circle r="6" fill="#2EA8FF">
+        <animateMotion dur="3s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.7;1" calcMode="linear">
+          <mpath href="#curve"/>
+        </animateMotion>
+      </circle>
+
+      <rect x="56" y="192" width="232" height="6" rx="3" fill="#262C35"/>
+      <rect class="bar" x="56" y="192" width="232" height="6" rx="3" fill="#2EA8FF"/>
+      <circle class="knob" cx="56" cy="195" r="7" fill="#161B22" stroke="#2EA8FF" stroke-width="2"/>
+    </g>
+
+    <!-- multiplayer-style cursor -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite"
+        values="470 250; 398 212; 398 212; 600 150; 860 110; 860 110; 470 250"
+        keyTimes="0; .16; .4; .55; .7; .85; 1"
+        calcMode="spline" keySplines=".2 .8 .2 1; 0 0 1 1; .2 .8 .2 1; .2 .8 .2 1; 0 0 1 1; .4 0 .2 1"/>
+      <path d="M0 0 L0 17.5 L4.6 13.3 L7.6 20.2 L10.4 19 L7.4 12.2 L13.4 12.2 Z" fill="#FF6B4A" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/>
+      <rect x="14" y="18" width="54" height="20" rx="10" fill="#FF6B4A"/>
+      <text x="41" y="32" class="m" font-size="11" fill="#FFFFFF" text-anchor="middle">damho</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="959" height="299" rx="17.5" stroke="#262C35"/>
+</svg>
