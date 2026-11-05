@@ -7,8 +7,8 @@
 
 ### <img src="./assets/icon-about.svg" width="20" height="20" />&nbsp; About
 
-웹 그래픽 디자이너로 일을 시작했고, 지금은 5년 차 프론트엔드 개발자입니다.
-예전엔 툴 위에서 화면을 그렸고, 요즘은 그 화면을 직접 코드로 움직입니다.
+고등학교 때 웹 디자인으로 시작했습니다. 그래픽을 만지다 보니 그 화면이 실제로 어떻게 움직이는지가 더 궁금해졌고,
+그렇게 개발에 빠져 5년 가까이 웹 프론트엔드 개발자로 일했습니다.
 
 버튼을 눌렀을 때의 반응, 화면이 넘어갈 때의 속도 같은 작은 차이가 사용 경험을 바꾼다고 믿어요.
 처음 보는데 이상하게 손이 가는 인터페이스를 발견하면 꼭 뜯어보고 따라 만들어 봅니다.
@@ -27,14 +27,17 @@
 
 ### <img src="./assets/icon-work.svg" width="20" height="20" />&nbsp; Work
 
-**[Voxel Valley](https://github.com/damho0514/voxel-valley)** &nbsp;<sub>Unity 6 · C# · Netcode</sub><br/>
-블록을 쌓아 각자의 계곡을 꾸미는 모바일 샌드박스. 친구와 접속 코드 하나로 같이 들어올 수 있어요.
+**Voxel Valley** &nbsp;<sub>Unity 6 · C# · Netcode</sub><br/>
+블록을 쌓아 각자의 계곡을 꾸미는 샌드박스. 설치 없이 브라우저에서 바로 들어가 볼 수 있어요.<br/>
+<a href="https://damho0514.github.io/voxel-valley/"><img src="./assets/btn-play.svg" height="30" alt="웹에서 바로 플레이" /></a>&nbsp;<a href="https://github.com/damho0514/voxel-valley"><img src="./assets/btn-repo.svg" height="30" alt="저장소" /></a>
 
-**[Mingle Town](https://github.com/damho0514/mingle-town)** &nbsp;<sub>Flutter · Flame · WebSocket</sub><br/>
-같은 시간에 접속한 사람들이 캐릭터로 만나 노는 광장. 모자 고르기, 술래잡기 같은 소소한 놀이를 넣었습니다.
+**DAMO 안심 가로등** &nbsp;<sub>Next.js · TypeScript</sub><br/>
+도로 영상을 보고 필요한 곳만 가로등을 밝히는 관제 화면 시연판. 휴대폰으로 열어도 됩니다.<br/>
+<a href="https://damo-ai.vercel.app"><img src="./assets/btn-site.svg" height="30" alt="사이트 보기" /></a>&nbsp;<a href="https://github.com/damho0514/Solar_Power_AI"><img src="./assets/btn-repo.svg" height="30" alt="저장소" /></a>
 
-**[DAMO 안심 가로등](https://github.com/damho0514/Solar_Power_AI)** &nbsp;<sub>Next.js · TypeScript</sub><br/>
-도로 영상을 보고 필요한 곳만 가로등을 밝히는 관제 화면 시연판. [직접 보기](https://damo-ai.vercel.app)
+**Mingle Town** &nbsp;<sub>Flutter · Flame · WebSocket</sub><br/>
+같은 시간에 접속한 사람들이 캐릭터로 만나 노는 광장. 모자 고르기, 술래잡기 같은 소소한 놀이를 넣었습니다.<br/>
+<a href="https://github.com/damho0514/mingle-town"><img src="./assets/btn-repo.svg" height="30" alt="저장소" /></a>
 
 <details>
 <summary>그 밖에 만들어 본 것들</summary>
